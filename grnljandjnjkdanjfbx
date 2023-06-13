@@ -1,0 +1,7 @@
+while true do
+wait()
+local A_1 = Vector3.new(-38.88007736206055, 1642.9161376953125, 9.691459655761719)
+local Event = game:GetService("Workspace").Mhas2g.cloud.ClientInput
+Event:FireServer(A_1)
+
+end
